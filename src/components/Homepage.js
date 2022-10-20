@@ -30,8 +30,8 @@ function Homepage() {
     <h1 className='  text-6xl lg:text-8xl'>Hello!</h1>
     <p className='text-justify font-style: italic text-2xl lg:text-4xl mt-6'>My name is Saurav Kaushal. I'm a web developer and i work on react and nodejs technology.   </p>
     </div>
-    <div className='fixed w-44 float-right bottom-20 left-[218px]'>
-   <a href='https://wa.me/918219465020'><img className='' src='https://i0.wp.com/bannerwishes.com/wp-content/uploads/2020/11/whatsapp-icon-1.png?fit=738%2C256&ssl=1'/></a>
+    <div className='fixed w-44  lg:left-[88.5%] bottom-20 left-[218px]'>
+   <a href='https://wa.me/918219465020?text=hi..thank you for coonecting with me. i will reply you soon.'><img className='' src='https://i0.wp.com/bannerwishes.com/wp-content/uploads/2020/11/whatsapp-icon-1.png?fit=738%2C256&ssl=1'/></a>
 </div>
   </div>
   <Router>
