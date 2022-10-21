@@ -5,13 +5,15 @@ import Work from "./Work"
 import Connect from "./Connect"
 import Contact from "./Contact"
 import {BrowserRouter as Router,Routes, Route} from "react-router-dom"
+import Scroll from './Scroll'
+
 function Homepage() {
     
   return (
     <>
     <div>
 
-      <div  className='relative'>
+      <div id='homepage' className='relative'>
         
       {/* <span className='ml-2 text-[#f0860c] font-thin'>Iam Saurav kaushal</span> */}
       
@@ -34,17 +36,13 @@ function Homepage() {
    <a href='https://wa.me/918219465020?text=hello Saurav..'><img className='' src='https://i0.wp.com/bannerwishes.com/wp-content/uploads/2020/11/whatsapp-icon-1.png?fit=738%2C256&ssl=1'/></a>
 </div>
   </div>
-  <Router>
-    <Routes>
-      <Route path='/project' element={<Projects/>}></Route>
-  </Routes>
-  </Router>
-  {/* <Projects/> */}
+
+  <Projects/>
 <Work/>
 <About/>
 <Connect/>
 <Contact/>
-
+<Scroll/>
 </div>
     </>
 

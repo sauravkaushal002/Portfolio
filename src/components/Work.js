@@ -2,7 +2,7 @@ import React from 'react'
 
 const Work = () => {
   return (
-    <div className='mb-8'>
+    <div className='mb-8' id='work'>
       <div className=' mt-4 flex justify-center'>
       <h1 className='  text-4xl  font-semibold'>Work Experience</h1>
       </div>
@@ -14,13 +14,13 @@ const Work = () => {
         <div className='hover:scale-110 transition-transform duration-700 work-card bg-blue-800 rounded-lg shadow-2xl w-60 h-72 '>
       
           <img className=' hover:top-10 relative top-[40%]' src="https://saffronchariot.com/wp-content/uploads/2021/05/saffron-chariot-technologies-loader-logo.png"></img>
-          <p className='relative opacity-0 hover:opacity-100 top-32'>Mern stack intern at saffron chariot technologies chandigarh</p>
+          <p className='relative opacity-20 text-center hover:opacity-100 top-32'>Mern stack intern at saffron chariot technologies chandigarh.</p>
         </div>
         <div className='hover:scale-110 transition-transform duration-700 work-card bg-[#00838d] hover:bg-[#00838d]  rounded-lg shadow-2xl w-60 h-72 '>
           
         
         <img className=' relative top-[40%]' src="https://saffronchariot.com/wp-content/uploads/2021/05/saffron-chariot-technologies-loader-logo.png"></img>
-      
+        <p className='relative opacity-10 text-center hover:opacity-100 top-32'>Jr. web developer at saffron chariot technologies chandigarh.</p>
           </div>
           
             {/* <div className="relative w-60 h-72 bg-white ">

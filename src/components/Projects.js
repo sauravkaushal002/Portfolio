@@ -2,7 +2,7 @@ import React from 'react'
 
 function Projects() {
   return (
-    <div className=" pb-8 bg-[#dddddbd1]">
+    <div className=" pb-8 bg-[#dddddbd1]" id='project'>
         <h1 className='py-4 flex justify-center text-4xl  font-semibold'>Projects</h1>
         <div>
         <hr className='lg:ml-72 lg:mr-72 ml-16 mr-16'></hr>

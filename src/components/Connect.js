@@ -2,7 +2,7 @@ import React from 'react'
 
 const Connect = () => {
   return (
-    <div className=' mt-6 mb-8 '>
+    <div className=' mt-6 mb-8 ' id='connect'>
       <div className=' flex justify-center '>
         <h1 className=' text-4xl font-semibold'>Links</h1>
         </div>
